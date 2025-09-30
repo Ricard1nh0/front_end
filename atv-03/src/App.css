@@ -1,0 +1,16 @@
+/* Estilos globais para a página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  /* Não adicione display: flex aqui. Apenas estilos globais para a fonte e cor. */
+}
+
+/* Layout para os formulários lado a lado */
+.formularios-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
